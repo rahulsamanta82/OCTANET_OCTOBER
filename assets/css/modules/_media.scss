@@ -1,0 +1,1980 @@
+@media (min-width: 1200px) and (max-width: 1568px){
+    .hero-social{
+        display: none;
+    }
+    .hero-dec-top{
+        display: none;
+    }
+    .hero-dec-bottom{
+        display: none;
+    }
+
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  
+    /*HEADER __------HEADER --__------HEADER -----HEADER*/
+   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+    /*HEADER __------HEADER --__------HEADER -----HEADER*/
+    .header{
+        .hero-dec-footer{
+            .container{
+                padding: 0 30px;
+            }
+            
+        }
+        .header-inner{
+            .hero-overlay{
+                .hero-social{
+                    display: none;
+                }
+                .hero-dec-top{
+                    display: none;
+                }
+                .hero-dec-bottom{
+                    display: none;
+                }
+                .hero-caption-parent{
+                    .container{
+                        padding: 0 30px;
+                        h4{
+                            font-size: 15px;
+                        }
+                        h1{
+                            font-size: 45px;
+                            line-height: 60px;
+                        }
+                        .click-menu{
+                            padding: 14px 18px;
+                            font-size: 13px;
+                            font-weight: 700;
+                            i{
+                                margin-left: 30px;
+                                margin-bottom: 3px;
+                            }   
+                        }
+                    }
+                }
+            }
+            .container{
+                padding: 0 30px;
+                .header-top{
+                    padding: 10px 0;
+
+                    .header-contact{
+                        li{
+                            margin: 0 15px;
+                        }
+                    }
+                }
+                .header-bottom{
+                    .header-bottom-inner{
+                        .navbar{
+                            .navbar-brand{
+                                img{
+                                    width: 125px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hide-hBottom{     
+                    transform: translateY(-44px);
+                }
+            }
+        }
+        .embedded-video-parent{
+            iframe{
+                width: 890px !important;
+            }
+        }
+    }
+    /*HEADER-END_-------HEADER-END HEADER-END_--*/
+
+    /*MAIN START --_---- MAIN MAIN   */
+
+    .main{
+        .main-inner{
+            
+        /*Story-SECTION STORY-SECTION -STORY _------- STORY  */
+        .story{
+
+            .float-cube{
+                top: -70px;
+                left: 43%;
+                width: 70px ;
+            }
+            .float-wave{
+                bottom: 70px;
+                left: 40px;
+                width: 50px ;
+            }
+            .section-padding{
+                @include section-padding;
+                .story-inner{
+                    @include container;
+                    padding: 0 30px;
+                    .story-lead-text{
+                        h6{
+    
+                            font-size: 18px;
+                            margin-bottom: 12px;
+                            &::before{
+                                @include top-left-dec-dot;
+                            }
+                        }
+                        h1{
+                            font-size: 30px;
+                            margin-bottom: 60px;
+                            &::after{
+                                font-weight: 600;
+                                font-size: 20px;
+                                letter-spacing: 3px;
+                            }
+                        }
+                        p{
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 23px;
+                                
+                        }
+                        
+                        a{
+                            @include generic-btn;
+                        }
+                        :nth-child(4){
+                            margin-bottom: 40px;
+                        }
+                    }
+                    .story-img{
+                        position: relative;
+                        img:first-child{
+                            box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                            z-index: 100;
+                        }
+                    }
+                }
+            }
+        }
+        /*Story-SECTION END END END- _------- STORY END END END  */
+
+        // RESERVATION START -RESERVATION START_---- RESERVATION START -RESERVATION START_----
+        .reservations{
+            .reservations-inner{
+                .row{
+                    .chef-quote-parent{
+                        .chef-quote-inner{
+                            padding: 100px 140px;
+                        }
+                    }
+                    .opening-parent{     
+                        .opening{  
+                            .opening-inner{
+                                .opening-caption{
+                                    width: 100%;
+                                    padding: 50px 0;
+                          
+                                    .opening-hours{
+                                        .row{
+                                            .col-sm-6{
+                                                ul{
+                                                    margin-right: 140px;
+                                                }
+
+                                            }
+                                            :last-child{
+                                                ul{
+                                                    margin-right: unset ;
+                                                    margin-left: 140px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //RESERVATION END ----_--- RESERVATION END --__
+
+
+        //SERVICE SECTION SERVICE SECTION ---_------ SERVICE SECTION____
+
+        .service{
+                    background-image:  none !important;
+                    .section-padding{
+                        .service-inner{
+                            padding: 0 30px;
+                            .lead-text{
+                                margin-bottom: 60px;
+                            }
+                            .service-details{
+                                .row{
+                                    position: relative;
+                                    &::before{
+                                        display: none;
+                                      
+                                    }
+                                    &::after{
+                                        display: none;
+                                      
+                                    }
+                                    .col-xl-4{
+                                        margin: 12px 0;
+                                        height: 400px;
+                                        &:hover .flip{
+                                            transform: rotateY(-180deg);
+
+                                        }
+                                        .flip{
+                                            width: 100%;
+                                            height: 100%;
+                                            .service-front{
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                z-index: 100;
+                                                
+                                                .service-front-inner{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    .service-details-inner{
+                                                        position: relative;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        img{
+                                                            display: none;
+                                                        }
+                                                        .service-details-caption{
+                                                            background-color: rgba($color: $blackText, $alpha: 1);
+                                                        
+                                                        }
+                          
+
+                                                    }
+                                                }
+                                                
+                                            }
+                                            .service-back{
+                                                backface-visibility: hidden;
+                                                width: 100%;
+                                                height: 100%;
+        
+                                                .service-back-caption{
+
+                                                    img{
+                                                        width: 70px;
+                                                        position: relative;
+             
+                                                    }
+                                                    p{
+                                                        &::after{
+                                                            bottom: -95px;
+                                                        }
+                                                    }
+                                                    &::after{
+                                                        top: 44px;
+                                                        left: 39%;
+                                                    }
+                                                    &::before{
+                                                        top: 110px;
+                                                        left: 50%;
+                                                    }
+                                                }
+
+                                            }
+                                   
+                                        }
+                                        
+                                        
+                                        
+                                    }
+                                }
+        
+                            }
+                        }
+                    }
+
+        }
+        
+        //SERVICE SECTION END SERVICE SECTION END 
+
+
+        // SPECIAL MENU SPECIAL --  SPECIAL MENU
+        .special-menu{
+            .section-padding{
+                padding: 100px 0px;
+                .special-menu-inner{
+                    .special-menu-tab{
+                        margin-top: 30px;
+                        .row{
+                            .col-xl-3{
+                                .nav{
+                                    flex-direction: row;
+                                    justify-content: center;
+                                }
+                                border-right: 1px $heroGray dotted;
+                                padding: 20px 15px;
+                                .active{
+                                    background-color: unset;
+                                    color: $golden !important;
+                                    position: relative;
+                                    &::after{
+                                        display: none;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .col-12{
+                        padding-left: 34px;
+                    }
+                }
+            }
+        }
+
+        //TEAM SECTION TEAM SECTION
+
+        .team-parent{
+            .custom-container{
+                padding: 0 30px;
+                .team-inner{
+                    .team-cards{
+                        &::before{
+                           display: none;
+                        }
+                    }
+                    .recipe-book-parent{
+                        .recipe-book-inner{
+                            align-items: flex-start;
+                            flex-direction: column;
+                            button{
+                                margin-top: 30px;
+                                margin-left: unset;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        //TEAM SECTION TEAM SECTION
+
+        //FOOTER  FOOTER
+
+        .footer{
+            padding: 100px 0 0 0 ;
+            background-color: $btnBlack;
+            .custom-container{
+               padding: 0 30px;
+        
+                .footer-inner{
+                    .footer-mid{
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+
+
+        //FOOTER  FOOTER
+
+
+
+        }
+    }
+    
+ }
+
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*HEADER __------HEADER --__------HEADER -----HEADER*/
+    .header{
+   
+        .header-inner{
+            .hero-overlay{
+                .hero-social{
+                    display: none;
+                }
+                .hero-dec-top{
+                    display: none;
+                }
+                .hero-dec-bottom{
+                    display: none;
+                }
+                .hero-caption-parent{
+                    .container{
+                        padding: 0 30px;
+                        h4{
+                            font-size: 15px;
+                        }
+                        h1{
+                            font-size: 45px;
+                            line-height: 60px;
+                        }
+                        .click-menu{
+                            padding: 14px 18px;
+                            font-size: 13px;
+                            font-weight: 700;
+                            i{
+                                margin-left: 30px;
+                                margin-bottom: 3px;
+                            }   
+                        }
+                    }
+                }
+            }
+            .container{
+                padding: 0 30px;
+                .header-top{
+                    padding: 10px 0;
+
+                    .header-contact{
+                        li{
+                            margin: 0 15px;
+                        }
+                    }
+                }
+                .header-bottom{
+                    .header-bottom-inner{
+                        .navbar{
+                            .navbar-toggler{
+                                margin-left: auto;
+                                padding: 0 26px;
+                                border-left: 1px solid #e2e2e2;
+                                align-self: stretch;
+                                outline: none;
+                                .navbar-toggler-icon{
+                                    width: 25px;
+                                    height: 25px;
+                                    img{
+                                        width: 25px;
+                                        display: block;
+                            
+                                    }
+                                }
+                            }
+                            .collapse{
+                                background-color: $blackText;
+                                position: absolute;
+                                top: 69px;
+                                right: 0;
+                                width: 45%;
+                                padding: 20px 40px;
+                                .nav-item{
+                                    .nav-link{
+                                        color: $white;
+                                        padding: 10px 0;
+                                    }
+                                    .dropdown-menu{
+                                        margin-bottom: 50px;
+                                    }
+                                }
+                            }
+                            .show-collapse{
+                                display: block;
+                                z-index: 100;
+                                opacity: 1;
+                                
+                            }
+                            .hide-collapse{
+                                display: none;
+                                z-index: -100;
+                                opacity: 0;
+                            }
+                            .cta-header{
+                                ul{
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hide-hBottom{     
+                    transform: translateY(-44px);
+                }
+            }
+        }
+        .hero-dec-footer{
+            .container{
+                @include container;
+                padding:  0 30px;   
+            }
+        }
+        .brush-bottom{
+            position: absolute;
+            bottom: -1px;
+            z-index: 12;
+        }
+        
+    }
+    /*HEADER-END_-------HEADER-END HEADER-END_--*/
+
+    /*MAIN START --_---- MAIN MAIN   */
+
+    .main{
+        .main-inner{
+            /* STORY STORY STORY  */
+            .story{
+                .section-padding{
+                    @include section-padding;
+                    .story-inner{
+                        @include container;
+                        padding: 0 30px;
+                        .story-lead-text{
+                  
+                            
+                            a{
+                                @include generic-btn;
+                                margin-bottom: 30px;
+                            }
+                            :nth-child(4){
+                                margin-bottom: 40px;
+                            }
+                        }
+                        .story-img{
+                            position: relative;
+                            img:first-child{
+                                box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+            }
+            /* STORY STORY STORY  */
+
+
+            // RESERVATION RESERVATION RESERVATION
+            .reservations{
+            .reservations-inner{
+                .row{
+                    .chef-quote-parent{
+                        .chef-quote-inner{
+                            padding: 100px 100px;
+                        }
+                    }
+                    .opening-parent{     
+                        .opening{  
+                            .opening-inner{
+                                .opening-caption{
+                                    width: 100%;
+                                    padding: 50px 0;
+                          
+                                    .opening-hours{
+                                        .row{
+                                            .col-sm-6{
+                                                ul{
+                                                    margin-right: 100px;
+                                                }
+
+                                            }
+                                            :last-child{
+                                                ul{
+                                                    margin-right: unset;
+                                                    margin-left: 100px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            }
+            // RESERVATION RESERVATION RESERVATION
+
+
+            //SERVICE SERVICE SERVICE
+
+            .service{
+            background-image:  none !important;
+            .section-padding{
+                .service-inner{
+                    padding: 0 30px;
+                    .lead-text{
+                        margin-bottom: 60px;
+                    }
+                    .service-details{
+                        .row{
+                            position: relative;
+                            &::before{
+                                display: none;
+                              
+                            }
+                            &::after{
+                                display: none;
+                              
+                            }
+                            .col-xl-4{
+                                margin: 12px 0;
+                                height: 400px;
+                                &:hover .flip{
+                                    transform: rotateY(-180deg);
+
+                                }
+                                .flip{
+                                    width: 100%;
+                                    height: 100%;
+                                    .service-front{
+                                        position: relative;
+                                        width: 100%;
+                                        height: 100%;
+                                        z-index: 100;
+                                        
+                                        .service-front-inner{
+                                            width: 100%;
+                                            height: 100%;
+                                            .service-details-inner{
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                img{
+                                                    display: none;
+                                                }
+                                                .service-details-caption{
+                                                    background-color: rgba($color: $blackText, $alpha: 1);
+                                                
+                                                }
+                  
+
+                                            }
+                                        }
+                                        
+                                    }
+                                    .service-back{
+                                        backface-visibility: hidden;
+                                        width: 100%;
+                                        height: 100%;
+
+                                        .service-back-caption{
+
+                                            img{
+                                                width: 70px;
+                                                position: relative;
+     
+                                            }
+                                            p{
+                                                &::after{
+                                                    bottom: -95px;
+                                                }
+                                            }
+                                            &::after{
+                                                top: 44px;
+                                                left: 39%;
+                                            }
+                                            &::before{
+                                                top: 110px;
+                                                left: 50%;
+                                            }
+                                        }
+
+                                    }
+                           
+                                }
+                                
+                                
+                                
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            }
+
+            //SERVICE SERVICE SERVICE 
+
+            // SPECIAL MENU SPECIAL --  SPECIAL MENU
+            .special-menu{
+                .section-padding{
+                    padding: 100px 0px;
+                    .special-menu-inner{
+                        .special-menu-tab{
+                            margin-top: 30px;
+                            .row{
+                                .col-xl-3{
+                                    .nav{
+                                        flex-direction: row;
+                                        justify-content: center;
+                                    }
+                                    border-right: 1px $heroGray dotted;
+                                    padding: 20px 15px;
+                                    .active{
+                                        background-color: unset;
+                                        color: $golden !important;
+                                        position: relative;
+                                        &::after{
+                                            display: none;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .col-12{
+                            padding-left: 34px;
+                        }
+                    }
+                }
+            }
+
+            
+            //TEAM SECTION TEAM SECTION
+
+            .team-parent{
+                .custom-container{
+                    padding: 0 30px;
+                    .team-inner{
+                        .team-cards{
+                            grid-template-columns: repeat(1, auto);
+                            &::before{
+                            display: none;
+                            }
+                        }
+                        .recipe-book-parent{
+                            .recipe-book-inner{
+                                width: 100%;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                button{
+                                    margin-top: 30px;
+                                    margin-left: unset;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            //TEAM SECTION TEAM SECTION
+
+
+            //FOOTER  FOOTER
+
+            .footer{
+                background-color: $btnBlack;
+                .custom-container{
+                padding: 0 30px;
+                    .footer-inner{
+                        .footer-mid{
+                            padding: 60px 0;
+                            gap: 40px;
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                }
+            }
+
+
+            //FOOTER  FOOTER
+
+            
+        }
+    }
+
+
+ }
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /*HEADER __------HEADER --__------HEADER -----HEADER*/
+     .header{
+   
+        .header-inner{
+            .hero-overlay{
+                .hero-social{
+                    display: none;
+                }
+                .hero-dec-top{
+                    display: none;
+                }
+                .hero-dec-bottom{
+                    display: none;
+                }
+                .hero-caption-parent{
+                    .container{
+                        padding: 0 30px;
+                        h4{
+                            font-size: 15px;
+                        }
+                        h1{
+                            font-size: 40px;
+                            line-height: 60px;
+                        }
+                        .click-menu{
+                            padding: 14px 18px;
+                            font-size: 13px;
+                            font-weight: 700;
+                            i{
+                                margin-left: 30px;
+                                margin-bottom: 3px;
+                            }   
+                        }
+                    }
+                }
+            }
+            .container{
+                padding: 0 00px;
+                .header-top{
+                    padding: 10px 0;
+
+                    .header-contact{
+                        li{
+                            margin: 0 15px;
+                        }
+                    }
+                }
+                .header-bottom{
+                    border-left: none;
+                    border-right: none;
+                    .header-bottom-inner{
+                        .navbar{
+                            .navbar-toggler{
+                                margin-left: auto;
+                                padding: 0 26px;
+                                border-left: 1px solid #e2e2e2;
+                                align-self: stretch;
+                                outline: none;
+                                .navbar-toggler-icon{
+                                    width: 25px;
+                                    height: 25px;
+                                    img{
+                                        width: 25px;
+                                        display: block;
+                            
+                                    }
+                                }
+                            }
+                            .collapse{
+                                background-color: $blackText;
+                                position: absolute;
+                                top: 69px;
+                                right: 0;
+                                width: 45%;
+                                padding: 20px 40px;
+                                .nav-item{
+                                    .nav-link{
+                                        color: $white;
+                                        padding: 10px 0;
+                                    }
+                                    .dropdown-menu{
+                                        margin-bottom: 50px;
+                                        .dropdown-item{
+                                            color: $white !important;
+                                        }
+                                    }
+                                }
+                            }
+                            .show-collapse{
+                                display: block;
+                                z-index: 100;
+                                opacity: 1;
+                                
+                            }
+                            .hide-collapse{
+                                display: none;
+                                z-index: -100;
+                                opacity: 0;
+                            }
+                            .cta-header{
+                                ul{
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hide-hBottom{     
+                    transform: translateY(-44px);
+                }
+            }
+        }
+        .hero-dec-footer{
+            bottom: 80px;
+            .container{
+                @include container;
+                padding:  0 30px;   
+            }
+        }
+    }
+    .main{
+        .main-inner{
+        /* STORY STORY STORY  */
+        .story{
+                .section-padding{
+                    @include section-padding;
+                    .story-inner{
+                        @include container;
+                        padding: 0 30px;
+                        .story-lead-text{
+                  
+                            
+                            a{
+                                @include generic-btn;
+                                margin-bottom: 30px;
+                            }
+                            :nth-child(4){
+                                margin-bottom: 40px;
+                            }
+                        }
+                        .story-img{
+                            position: relative;
+                            img:first-child{
+                                box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+        }
+        /* STORY STORY STORY  */
+
+        // RESERVATION RESERVATION RESERVATION
+        .reservations{
+            .reservations-inner{
+                .row{
+                    .chef-quote-parent{
+                        .chef-quote-inner{
+                            padding: 100px 40px;
+                        }
+                    }
+                    .opening-parent{     
+                        .opening{  
+                            .opening-inner{
+                                .opening-caption{
+                                    width: 100%;
+                                    padding: 50px 0;
+                          
+                                    .opening-hours{
+                                        .row{
+                                            .col-sm-6{
+                                                ul{
+                                                    margin-right: 50px;
+                                                }
+
+                                            }
+                                            :last-child{
+                                                ul{
+                                                    margin-right: unset ;
+                                                    margin-left: 50px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .seperator{
+                                        display: none;
+                                    }
+                                    .events-slider-parent{
+                                        .events-slider{
+                                            .owl-dots{
+                                                display: flex;
+                                                justify-content: center;
+                                                margin: 0px 0 20px 0;
+                                                .owl-dot{
+                                                    outline: none !important;
+                                                    span{
+                                                        background-color: $white;
+                                                    }
+                                                    
+                                                }
+                                                .active{
+                                                    span{
+                                                        background-color: $golden2;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // RESERVATION RESERVATION RESERVATION
+
+
+        //SERVICE SERVICE SERVICE
+        .service{
+                        background-image:  none !important;
+                        .section-padding{
+                            .service-inner{
+                                padding: 0 30px;
+                                .lead-text{
+                                    margin-bottom: 60px;
+                                }
+                                .service-details{
+                                    .row{
+                                        position: relative;
+                                        &::before{
+                                            display: none;
+                                          
+                                        }
+                                        &::after{
+                                            display: none;
+                                          
+                                        }
+                                        .col-xl-4{
+                                            margin: 12px 0;
+                                            height: 400px;
+                                            &:hover .flip{
+                                                transform: rotateY(-180deg);
+            
+                                            }
+                                            .flip{
+                                                width: 100%;
+                                                height: 100%;
+                                                .service-front{
+                                                    position: relative;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    z-index: 100;
+                                                    
+                                                    .service-front-inner{
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        .service-details-inner{
+                                                            position: relative;
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            img{
+                                                                display: none;
+                                                            }
+                                                            .service-details-caption{
+                                                                background-color: rgba($color: $blackText, $alpha: 1);
+                                                            
+                                                            }
+                              
+            
+                                                        }
+                                                    }
+                                                    
+                                                }
+                                                .service-back{
+                                                    backface-visibility: hidden;
+                                                    width: 100%;
+                                                    height: 100%;
+            
+                                                    .service-back-caption{
+            
+                                                        img{
+                                                            width: 70px;
+                                                            position: relative;
+                 
+                                                        }
+                                                        p{
+                                                            &::after{
+                                                                bottom: -95px;
+                                                            }
+                                                        }
+                                                        &::after{
+                                                            top: 44px;
+                                                            left: 39%;
+                                                        }
+                                                        &::before{
+                                                            top: 110px;
+                                                            left: 50%;
+                                                        }
+                                                    }
+            
+                                                }
+                                       
+                                            }
+                                            
+                                            
+                                            
+                                        }
+                                    }
+            
+                                }
+                            }
+                        }
+            
+        } 
+        //SERVICE SERVICE SERVICE 
+
+
+        // SPECIAL MENU SPECIAL --  SPECIAL MENU
+        .special-menu{
+            .section-padding{
+                padding: 100px 0px;
+                .special-menu-inner{
+                    .special-menu-tab{
+                        margin-top: 30px;
+                        .row{
+                            .col-xl-3{
+                                .nav{
+                                    flex-direction: row;
+                                    justify-content: center;
+                                }
+                                border-right: 1px $heroGray dotted;
+                                padding: 20px 15px;
+                                .active{
+                                    background-color: unset;
+                                    color: $golden !important;
+                                    position: relative;
+                                    &::after{
+                                        display: none;
+
+                                    }
+                                }
+                            }
+                            .col-xl-9{
+                                .tab-content-inner{
+                                    margin-top: 34px;
+                                    padding-left: 0px;
+                                    .dish{
+                                        .dish-content{
+                                            h5{
+
+                                                &::after{
+                                                    display: none;
+
+                                                }
+                                            }
+                                        }
+                                        .dish-price{
+                                            margin:  0  0  0 auto;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                    .col-12{
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+
+        //TEAM SECTION TEAM SECTION
+
+        .team-parent{
+            .custom-container{
+                padding: 0 30px;
+                .team-inner{
+                    .team-cards{
+                        grid-template-columns: repeat(1, auto);
+                        &::before{
+                        display: none;
+                        }
+                    }
+                    .recipe-book-parent{
+                        .recipe-book-inner{
+                            width: 100%;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            button{
+                                margin-top: 30px;
+                                margin-left: unset;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        //TEAM SECTION TEAM SECTION
+
+        //FOOTER  FOOTER
+
+        .footer{
+            background-color: $btnBlack;
+            .custom-container{
+            padding: 0 30px;
+                .footer-inner{
+                    .footer-top{
+                        .footer-logo{
+                            
+                        }
+                    }
+                    .footer-mid{
+                        padding: 60px 0;
+                        gap: 40px;
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+        }
+
+
+        //FOOTER  FOOTER
+
+        }
+    }
+ }
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+     /*HEADER __------HEADER --__------HEADER -----HEADER*/
+     .header{
+   
+        .header-inner{
+            .hero-overlay{
+                .hero-social{
+                    display: none;
+                }
+                .hero-dec-top{
+                    display: none;
+                }
+                .hero-dec-bottom{
+                    display: none;
+                }
+                .hero-caption-parent{
+                    z-index: 500;
+                    .container{
+                        padding: 0 20px;
+                        h4{
+                            font-size: 15px;
+                        }
+                        h1{
+                            font-size: 35px;
+                            line-height: 45px;
+                        }
+                        .click-menu{
+                            padding: 14px 18px;
+                            font-size: 12px;
+                            font-weight: 700;
+                            i{
+                                margin-left: 30px;
+                                margin-bottom: 3px;
+                            }   
+                        }
+                    }
+                }
+            }
+            .container{
+                padding: 0 00px;
+                .header-top{
+                    display: none;
+                }
+                .header-bottom{
+                    padding: unset;
+                    border:  none;
+                    border-bottom: 1px solid $borderEEE;
+                    .header-bottom-inner{
+                        .navbar{
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            .navbar-toggler{
+                                margin-left: auto;
+                                padding: 0 10px;
+                                border-left: none;
+                                align-self: stretch;
+                                outline: none;
+                                .navbar-toggler-icon{
+                                    width: 25px;
+                                    height: 25px;
+                                    img{
+                                        width: 25px;
+                                        display: block;
+                            
+                                    }
+                                }
+                            }
+                            .navbar-brand{
+                     
+                                img{
+                                    width: 95px;
+                                }
+                            }
+                            .collapse{
+                                background-color: $blackText;
+                                position: absolute;
+                                top: 69px;
+                                right: 0%;
+                      
+                                width: 100%;
+                                padding: 20px 40px;
+                                .nav-item{
+                                    .nav-link{
+                                        color: $white;
+                                        padding: 10px 0;
+                                    }
+                                    .dropdown-menu{
+                                        margin-bottom: 40px;
+                                        
+                                    }
+                                }
+                            }
+                            .show-collapse{
+                                display: block;
+                                z-index: 900;
+                                opacity: 1;
+                                left: 0;
+                            }
+                            .hide-collapse{
+                                display: none;
+                                z-index: -100;
+                                opacity: 0;
+                            }
+                            .cta-header{
+                                .cart-details{
+                                    display: none;
+                                    width: 300px;
+                                    height: 470px;
+                                    padding: 25px 25px;
+                                    position: absolute;
+                                    bottom: 0;
+                                    right: -10px;
+                                    .cart-details-top{
+                                        padding-bottom: 20px;
+                                        font-weight: 600;
+                                        font-size: 19px;
+                                        span{
+                                            font-size: 12px;
+                                        }
+                                    }
+                                    .cart-item{
+                                        padding: 20px 20px 10px 20px;
+                                        height: 240px;
+                                        
+                                        ol{
+                                            margin-bottom: 0;
+                                            :first-child{
+                                                padding-top: 0;
+                                            }
+                                            :last-child{
+                                                padding-bottom: 00px;
+                                                border-bottom: 0;
+                                            }
+                                            li{
+                                            
+                                                padding: 10px 0; 
+                                                border-bottom: 1px dotted $borderEEE;
+                                                @include font-second;
+                                                display: flex;
+                                                position: relative;
+                                                .cart-item-counter{
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    left: -20px;
+                                                    transform: translateY(-50%);
+                                                    color: $golden;
+                                                }
+                                                .cart-item-cross{
+                                                    cursor: pointer;
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    right: 0px;
+                                                    transform: translateY(-50%);
+                                                    color: $golden;
+                                                    img{
+                                                        width: 9px;
+                                                    }
+                                                }
+                                                .item-details{
+                                                    padding-left: 10px;
+                                                    h5{
+                                                        @include font-second;
+                                                        color: $black111;
+                                                        font-size: 13px;
+                                                        margin-bottom: 5px
+                                                    }
+                                                    span{
+                                                        @include font-second;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+    
+                                    .bill{
+                                        margin-top: 20px;
+                                        margin-bottom: 20px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        padding: 15px 0;
+                                        border-top: 1px dotted $borderEEE;
+                                        border-bottom: 1px dotted $borderEEE;
+                                        :first-child{
+                                            color: $btnBlack;
+                                            font-weight: 600;
+                                        }
+                                        :last-child{
+                                            color: $golden;
+                                            @include font-second;
+                                            font-weight: 600;
+                                        }
+                                        
+                                    }
+                                    .checkout{
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        &::after{
+                                            display: none;
+                                        }
+                                        button{
+                                            background-color: $btnBlack;
+                                            color: $white;
+                                            font-size: 12px;
+                                            font-weight: 700;
+                                            width: 120px;
+                                            height: 40px;
+                                            border: none;
+                                            outline:none;
+                                            transition: all 500ms ease;
+                                            outline: 2px solid $white;
+                                            &:hover,&:focus{
+                                                outline: 2px solid $btnBlack;
+                                            }
+                                        }
+                                    }
+                                }
+                                .show-cart-details{
+                                    display: block !important;
+                                    right: -10px !important;
+                                }
+                                    ul{
+                                        margin-left: 0px;
+                                        li:first-child{
+                                            position: relative;
+                                            .shopping-counter{
+                                                position: absolute;
+                                                bottom: 10%;
+                                                right: 10%;
+                                                transform: translate(-50%,-50%);
+                                                background-color: $golden;
+                                                width: 16px;
+                                                height: 16px;
+                                                border-radius: 50%;
+                                                display: grid;
+                                                place-items: center;
+                                                p{
+                                                    font-size: 10px;
+                                                    margin-bottom: 0;
+                                                    color: $white;
+                                                    font-family: 'Poppins', sans-serif ;
+                                                }
+                                              
+                                            }
+                                        }
+                                        li{
+                                            height: 100%;
+                                            padding: 0  12px;
+                                            border-left: none;
+                                            display: flex;
+                                            align-items: center;
+                                            font-size: 12px;
+                                            
+                                            a{
+                                                img{
+                                                    width: 20px;
+                                                }
+                                            }
+                                        }
+                                }
+                                
+                                
+                            }
+                        }
+                        .share-details{
+                            width: 100%;
+                            height: 108px;
+                            ul{
+                                height: 100%;
+                                li{
+                                    
+                                    height: 100%;
+                                    margin: 0 10px;
+                                    a{
+                                        font-size: 10px;
+                                        height: 100%;
+                                        width: auto;
+                              
+                                    }
+                              
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .hide-hBottom{     
+                    transform: translateY(0px);
+                }
+            }
+        }
+    }
+    .main{
+        .main-inner{
+        // STORY STORY STORY
+        .story{
+                .float-cube{
+                    top: -50px;
+                    img{
+                        width: 90px;
+                    }
+                }
+                .float-wave{
+                    img{
+                        width: 70px;
+                    }
+                }
+                .section-padding{
+                    @include section-padding;
+                    .story-inner{
+                        @include container;
+                        padding: 0 30px;
+
+                        .story-lead-text{
+                            h1{
+                                font-size: 25px   ;
+                                margin-bottom: 40px
+                            }
+                            
+                            a{
+                                @include generic-btn;
+                                margin-bottom: 30px;
+                            }
+                            :nth-child(4){
+                                margin-bottom: 40px;
+                            }
+                        }
+                        .story-img{
+                            padding: unset;
+                            position: relative;
+                            img:first-child{
+                                box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+        }
+        // STORY STORY STORY
+
+        // RESERVATION RESERVATION RESERVATION
+        .reservations{
+            .reservations-inner{
+                .row{
+                    .chef-quote-parent{
+                        .chef-quote-inner{
+                            padding: 60px 10px;
+                            .chef-quote
+                            {
+                                .chef-signature
+                                {
+                                    h6{
+                                        margin-right: 10px;
+                                    }
+                                    img{
+                                        width: 120px;
+                                    }
+                                } 
+                            } 
+                        }
+                    }
+                    .opening-parent{     
+                        .opening{  
+                            padding: 20px;
+                            .opening-inner{
+                                box-shadow: 0px 0px 0px 20px rgba(54, 54, 54, 0.5);
+                                .opening-caption{
+                                    width: 100%;
+                                    padding: 50px 0;
+                                    .opening-heading{
+                                        h2{
+                                            font-size: 26px;
+                                            &::after{
+                                                bottom: -25px;
+                                            }
+                                        }
+                                    }
+                                    .opening-hours{
+                                        .row{
+                                            .col-sm-6{
+                                                ul{
+                                                    margin: 0 auto ;
+                                                    margin-bottom: 30px;
+                                                    :last-child{
+                                                        &::after{
+                                                            display: none;
+                                                        }
+                                                    }
+                                                }
+
+                                            }
+                                            :last-child{
+                                                ul{
+                                                    margin: 0 auto;
+                                                }
+                                            }
+                                            &::before{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                    .hotel-number{
+                                        position: relative;
+                                        font-size: 25px;
+                                        width: 220px;
+                                        padding-bottom: 10px;
+                                        &::before{
+                                            position: absolute;
+                                            display: block;
+                                            content: '';
+                                            top: -52px;
+                                            width: 70px;
+                                            left: 30px;
+                                            height: 1px;
+                                            opacity: 0.6;
+                                            background-color: $golden;
+                                        }
+                                        &::after{
+                                            position: absolute;
+                                            display: block;
+                                            content: '';
+                                            top: -52px;
+                                            width: 70px;
+                                            right: 30px;
+                                            height: 1px;
+                                            opacity: 0.6;
+                                            background-color: $golden;
+                                        }
+                                    }
+                                    .seperator{
+                                        display: none;
+                                    }
+                                    .events-slider-parent{
+                                        padding: 0 10px;
+                                        .events-slider{
+                                            .owl-dots{
+                                                display: flex;
+                                                justify-content: center;
+                                                margin: 0px 0 20px 0;
+                                                .owl-dot{
+                                                    outline: none !important;
+                                                    span{
+                                                        background-color: $white;
+                                                    }
+                                                    
+                                                }
+                                                .active{
+                                                    span{
+                                                        background-color: $golden2;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // RESERVATION RESERVATION RESERVATION
+
+
+        //SERVICE SERVICE SERVICE
+        .service{
+                    background-image:  none !important;
+                    .section-padding{
+                        .service-inner{
+                            padding: 0 30px;
+                            .lead-text{
+                                margin-bottom: 50px;
+                                @include lead-text-xs;
+                            }
+                            .service-details{
+                                .row{
+                                    position: relative;
+                                    &::before{
+                                        display: none;
+                                      
+                                    }
+                                    &::after{
+                                        display: none;
+                                      
+                                    }
+                                    .col-xl-4{
+                                        margin: 12px 0;
+                                        height: 400px;
+                                        padding: 0;
+                                        &:hover .flip{
+                                            transform: rotateY(-180deg);
+        
+                                        }
+                                        .flip{
+                                            width: 100%;
+                                            height: 100%;
+                                            .service-front{
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                z-index: 100;
+                                                
+                                                .service-front-inner{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    .service-details-inner{
+                                                        position: relative;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        img{
+                                                            display: none;
+                                                        }
+                                                        .service-details-caption{
+                                                            background-color: rgba($color: $blackText, $alpha: 1);
+                                                            h5{
+                                                                font-size: 17px;
+                                                                &::before{
+                                                                    width: 40px;
+                                                                }
+                                                            }
+                                                            h6{
+                                                                margin-top: 10px;
+                                                                font-size: 12px;
+                                                            }
+                                                        }
+                                                        .service-num{
+                                                            font-size: 18px;
+                                                        }
+                          
+        
+                                                    }
+                                                }
+                                                
+                                            }
+                                            .service-back{
+                                                backface-visibility: hidden;
+                                                width: 100%;
+                                                height: 100%;
+        
+                                                .service-back-caption{
+        
+                                                    img{
+                                                        width: 70px;
+                                                        position: relative;
+             
+                                                    }
+                                                    p{
+                                                        &::after{
+                                                            bottom: -75px;
+                                                        }
+                                                    }
+                                                    &::after{
+                                                        top: 44px;
+                                                        left: 31%;
+                                                    }
+                                                    &::before{
+                                                        top: 110px;
+                                                        left: 50%;
+                                                    }
+                                                }
+        
+                                            }
+                                   
+                                        }
+                                        
+                                        
+                                        
+                                    }
+                                }
+        
+                            }
+                        }
+                    }
+        
+        } 
+        //SERVICE SERVICE SERVICE 
+
+
+        // SPECIAL MENU SPECIAL --  SPECIAL MENU
+        .special-menu{
+        .section-padding{
+            padding: 100px 0px;
+            .special-menu-inner{
+                .special-menu-tab{
+                    margin-top: 30px;
+                    .row{
+                        .col-xl-3{
+                            .nav{
+                                flex-direction: row;
+                                justify-content: center;
+                            }
+                            border-right: 1px $heroGray dotted;
+                            padding: 20px 15px;
+                            .active{
+                                background-color: unset;
+                                color: $golden !important;
+                                position: relative;
+                                &::after{
+                                    display: none;
+
+                                }
+                            }
+                        }
+                        .col-xl-9{
+                            .tab-content-inner{
+                                margin-top: 34px;
+                                padding-left: 0px;
+                                .dish{
+                                    flex-direction: column;
+                                    .dish-content{
+                                        margin-top: 8px;
+                                        padding-left: 22px;
+                                        h5{
+
+                                            &::after{
+                                                display: none;
+
+                                            }
+                                        }
+                                    }
+                                    .dish-price{
+                                        margin:  0  0  0 auto;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+                .col-12{
+                    padding-left: 0px;
+                }
+            }
+        }
+        }      
+
+        
+        //TEAM SECTION TEAM SECTION
+
+        .team-parent{
+            .custom-container{
+                padding: 0 30px;
+                .team-inner{
+                    .team-cards{
+                        grid-template-columns: repeat(1, auto);
+                        &::before{
+                        display: none;
+                        }
+                        .team-card{
+                            .team-img{
+                                .team-img-overlay{
+                                    .social-icons{
+                                        a{
+                                            width: 30px;
+                                            height: 30px;
+                                            i{
+                                                font-size: 12px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .recipe-book-parent{
+                        .recipe-book-inner{
+                            width: 100%;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            button{
+                                margin-top: 30px;
+                                margin-left: unset;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        //TEAM SECTION TEAM SECTION
+
+
+        //FOOTER  FOOTER
+
+        .footer{
+            background-color: $btnBlack;
+            .custom-container{
+            padding: 0 30px;
+                .footer-inner{
+                    .footer-top{
+                        flex-direction: column;
+                        .footer-social-icons{
+                            margin-top: 20px;
+                        }
+                        .footer-logo{
+                            .lang-select{
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                    .footer-mid{
+                        padding: 50px 0;
+                        gap: 40px;
+                        grid-template-columns: 1fr;
+                        .footer-mid-col{
+                            ul{
+                                li{
+                                    span{
+                                        width: 50px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-bottom{
+                padding: 20px 0;
+                .custom-container{
+                    flex-direction: column;
+                    .to-top-btn{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+
+        //FOOTER  FOOTER
+   
+        }
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,1090 @@
+.story{
+    position: relative;
+    overflow: hidden;
+    z-index: 000;
+    .top-left-dec-dot{
+        @include top-left-dec-dot;
+    }
+    .float-cube{
+        position: absolute;
+        top: -70px;
+        z-index: 00;
+        left: 43%;
+        width: 90px ;
+        transition: all 600ms ease-in-out;
+    }
+    .float-wave{
+        position: absolute;
+        bottom: 70px;
+        z-index: -100;
+        left: 9%;
+        width: 90px ;
+        transition: all 600ms ease-in-out;
+    }
+    .section-padding{
+        @include section-padding;
+        .story-inner{
+            @include container;
+            .story-lead-text{
+                h6{
+                    color: $golden2;
+                    font-weight: 600;
+                    font-style: italic;
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                    position: relative;
+                    &::before{
+                        @include top-left-dec-dot;
+                    }
+                }
+                h1{
+                    color: $blackText2;
+                    font-size: 30px;
+                    font-weight: 700;
+                    position: relative;
+                    margin-bottom: 60px;
+                    &::after{
+                        position: absolute;
+                        display: block;
+                        content: '......';
+                        font-weight: 600;
+                        font-size: 20px;
+                        letter-spacing: 3px;
+                        color: $dots;
+                    }
+                }
+                p{
+                    @include font-second;
+                    color: $blackSmallText ;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 23px;
+                     
+                }
+                
+                a{
+                    @include generic-btn;
+                }
+                :nth-child(4){
+                    margin-bottom: 40px;
+                }
+            }
+            .story-img{
+                position: relative;
+                img:first-child{
+                    box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                    z-index: 100;
+                }
+                :last-child{
+                    width: 380px;
+                    position: absolute;
+                    z-index: -100;
+                    right: -50%;
+                    top: 50%;
+                    transform: translate(-40%,-50%);
+                }
+            }
+        }
+    }
+}
+.main{
+    .main-inner{
+        .story{
+            position: relative;
+            overflow: hidden;
+            z-index: 000;
+            .top-left-dec-dot{
+                @include top-left-dec-dot;
+            }
+            .float-cube{
+                position: absolute;
+                top: -70px;
+                z-index: 00;
+                left: 43%;
+                width: 90px ;
+                transition: all 600ms ease-in-out;
+            }
+            .float-wave{
+                position: absolute;
+                bottom: 70px;
+                z-index: -100;
+                left: 9%;
+                width: 90px ;
+                transition: all 600ms ease-in-out;
+            }
+            .section-padding{
+                @include section-padding;
+                .story-inner{
+                    @include container;
+                    .story-lead-text{
+                        h6{
+                            color: $golden2;
+                            font-weight: 600;
+                            font-style: italic;
+                            font-size: 18px;
+                            margin-bottom: 12px;
+                            position: relative;
+                            &::before{
+                                @include top-left-dec-dot;
+                            }
+                        }
+                        h1{
+                            color: $blackText2;
+                            font-size: 30px;
+                            font-weight: 700;
+                            position: relative;
+                            margin-bottom: 60px;
+                            &::after{
+                                position: absolute;
+                                display: block;
+                                content: '......';
+                                font-weight: 600;
+                                font-size: 20px;
+                                letter-spacing: 3px;
+                                color: $dots;
+                            }
+                        }
+                        p{
+                            @include font-second;
+                            color: $blackSmallText ;
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 23px;
+                             
+                        }
+                        
+                        a{
+                            @include generic-btn;
+                        }
+                        :nth-child(4){
+                            margin-bottom: 40px;
+                        }
+                    }
+                    .story-img{
+                        position: relative;
+                        img:first-child{
+                            box-shadow: -3px 10px 12px 2px rgba($color: #000000, $alpha: 0.2);
+                            z-index: 100;
+                        }
+                        :last-child{
+                            width: 380px;
+                            position: absolute;
+                            z-index: -100;
+                            right: -50%;
+                            top: 50%;
+                            transform: translate(-40%,-50%);
+                        }
+                    }
+                }
+            }
+        }
+        //story end end story end
+
+        // RESERVATION START -RESERVATION START_---- RESERVATION START -RESERVATION START_----
+        .reservations{
+            .reservations-inner{
+                .row{
+                    .chef-quote-parent{
+                        position: relative;
+                        background-repeat:  no-repeat;
+                        background-size: 1300px;
+                        background-position: center;
+                        .chef-quote-inner{
+                            background-color: rgba($color: #000000, $alpha: 0.5);
+                            padding: 200px 100px;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .chef-quote{
+                                h1{
+                                    font-size: 35px;
+                                    font-weight: 400;
+                                    color: $golden2;
+                                    margin-bottom: 30px;
+                                    position: relative;
+                                    &::after{
+                                        display: block;
+                                        content: '...';
+                                        letter-spacing: 6px;
+                                        font-size: 18px;
+                                        color: $white;
+                                        position: absolute;
+                                        top: -30px;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+                                }
+                                h6{
+                                    font-size: 21px;
+                                    color: $white;
+                                    margin-bottom: 26px;
+                                    font-style: italic;
+                                    letter-spacing: 1px;
+                                }
+                                button{
+                                    @include primary-black-btn;
+                                    margin: 0 auto;
+                                }
+                                text-align: center;
+                                img{
+                                    margin-bottom: 20px;
+                                    width: 40px;
+                                }
+                                p{
+                                    font-size: 15px;
+                                    text-align: center;
+                                    color: $white;
+                                    line-height: 28px;
+                                    margin-bottom: 60px;
+                                }
+                                .chef-signature{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-end;
+                                    h6{
+                                        color:$white;
+                                        @include font-second;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        margin-bottom: 0;
+                                        margin-right: 40px;
+                                    }
+                                    img{
+                                        width: 150px;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                                
+                            
+                            }
+                        }
+                    }
+                    .opening-parent{
+                        
+                        .opening{
+                            width: 100%;
+                            height: 100%;
+                            padding: 50px ;
+                            background-color: rgba(48, 48, 48, 01);
+                            background-repeat: no-repeat;
+                            background-size: 990px;
+                            
+                            .opening-inner{
+                                box-shadow: 0px 0px 0px 50px rgba(54, 54, 54, 0.5);
+                                background-color: rgba(41, 41, 41, 0.8);
+                                width: 100%;
+                                height: 100%;
+                                border: 1px dashed rgba(167, 167, 167, 0.5);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .opening-caption{
+                                    width: 100%;
+                                    .opening-heading{
+                                        text-align: center;
+                                        h6{
+                                            color:  $golden;
+                                            font-size: 18px;
+                                            font-style: italic;
+                                            margin-bottom: 12px;
+                                        }
+                                        h2{
+                                            margin-bottom: 60px;
+                                            color : $white;
+                                            font-weight: 700;
+                                            position: relative;
+                                            &::after{
+                                                @include heading-dots;
+                                                color: $golden;
+                                            }
+                                        }
+                                    }
+                                    .opening-hours{
+                                        .row{
+                                            position: relative;
+                                            .col-sm-6{
+                                                display: flex;
+                                                justify-content: flex-end;
+                                                ul{
+                                                    margin-right: 70px;
+                                                    :first-child{
+                                                        color: $golden;
+                                                        @include font-second;
+                                                        font-size: 13px;
+                                                        position: relative;
+                                                 
+                                                    }
+                                                    :nth-child(2){
+                                                        margin-top: 10px;
+                                                        text-align: center;
+                                                        font-size: 30px;
+                                                        @include font-second;
+                                                        color: $white;
+                                                        font-weight: 600;
+                                                    }
+                                                    :last-child{
+                                                        margin-top: 5px;
+                                                        text-align: center;
+                                                        font-size: 30px;
+                                                        @include font-second;
+                                                        color: $white;
+                                                        font-weight: 600;
+                                                        position: relative;
+                                                        &::after{
+                                                            position: absolute;
+                                                            display: block;
+                                                            content: '';
+                                                            bottom: -60px;
+                                                            width: 100%;
+                                                            left: 50%;
+                                                            transform: translateX(-50%);
+                                                            height: 1px;
+                                                            background-color:  $golden;
+                                                            opacity: 0.5;
+                                                        }
+                                                    }
+                                                        
+                                                    
+                                                }
+
+                                            }
+                                            :last-child{
+                                                justify-content: flex-start;
+                                                ul{
+                                                    margin-right: unset;
+                                                    margin-left: 70px;
+                                                }
+                                            }
+                                            &::before{
+                                                @include font-second;
+                                                position: absolute;
+                                                display: block;
+                                                content: 'xxxxxxxxxxxx';
+                                                letter-spacing: 1px;
+                                                opacity: 0.7;
+                                                left: 50%;
+                                                top: 50%;
+                                                color: $golden;
+                                                text-transform: uppercase;
+                                                transform:  translate(-50%,-50%)  rotate(90deg);
+                                                
+                                            }
+                                            &:after{
+                                                width: 7px;
+                                                height: 7px;
+                                                border-radius: 50%;
+                                                display: block;
+                                                content: '';
+                                                position: absolute;
+                                                bottom: -63px;
+                                                left: 50%;
+                                                transform: translateX(-50%);
+                                                background-color: $white;
+                                            }
+                                        }
+                                    }
+                                    .events-slider-parent{
+                                        display: flex;
+                                        justify-content: center;
+                                        padding: 0 10%;
+                                        .events-slider{
+                                            .owl-item{
+                                               
+                                                .item{
+                                                    padding: 0 10px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    flex-direction: column;
+                                                    text-align: center;
+                                                 
+                                                    padding-bottom: 40px;
+                                                    h5{
+                                                        font-size: 19px;
+                                                        color: $white;
+                                                        margin-bottom: 15px;
+                                                    }
+                                                    h6{
+                                                        font-size: 13px;
+                                                        color: $golden;
+                                                        font-family: $poppins;
+                                                        margin-bottom: 15px;
+                                                    }
+                                                    p{
+                                                        margin-top: auto;
+                                                        margin-bottom: unset;
+                                                        font-size: 11px;
+                                                        font-family: $poppins;
+                                                        color: rgba(255,255,255,0.8);
+                                                        position: relative;
+                                                        line-height: 24px;
+                                                        &::after{
+                                                            @include heading-dots;
+                                                            bottom: -20px;
+                                                            content: '...';
+                                                            letter-spacing: 4px;
+                                                            color: $golden;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .active{
+                                                display: flex;
+                                            }
+                                            .owl-stage-outer{
+                                                padding: 0 0px;
+                                                .owl-stage{
+                                                    display: flex;
+                                                }
+                                            }
+                                            .owl-nav{
+                                                background-color: red;
+                                                margin-top: unset;
+                                                .owl-prev{
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    left: -30px;
+                                                    transform: translateY(-50%);
+                                                    &:hover , :focus{
+                                                        background-color: unset;
+                                                        outline: none;
+                                                    }
+                                                }
+                                                .owl-next{
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    right: -30px;
+                                                    transform: translateY(-50%);
+                                                    &:hover , :focus{
+                                                        background-color: unset;
+                                                        outline: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .seperator{
+                                        max-width: 480px;
+                                        margin: 0 auto 50px auto;
+                                        position: relative;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        span{
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            background-color: $white;
+                                        }
+                                    }
+                                    .primary-black-btn{
+                                        @include primary-black-btn;
+                                        background-color: rgba(255,255,255,0.1);
+                                        border: 1px solid $golden;
+                                        padding: 14px 20px;
+                                        font-weight: 600;
+                                        margin: 0 auto;
+                                    }
+                                    .hotel-number{
+                                        width: 255px;
+                                        font-size: 29px;
+                                        font-weight: 600;
+                                        color:  $white;
+                                        border: 1px solid $golden;
+                                        padding: 6px 20px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 110px auto 0 auto;
+                                        transition: all 400ms ease-in-out;
+                                        &:hover{
+                                            color: $golden;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //RESERVATION END ----_--- RESERVATION END --__
+
+        //SERVICE SECTION SERVICE SECTION - SERVICE SECTION
+
+        .service{
+            position: relative;
+            background-size: 1900px;
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            .section-padding{
+                @include small-section-padding;
+                overflow: hidden;
+                .service-inner{
+                    @include container;
+                    .lead-text{
+                        @include lead-text;
+                        margin-bottom: 60px;
+                    }
+                    .service-details{
+                        .row{
+                            position: relative;
+                            &::before{
+                                @include top-left-dec-dot;
+                              
+                            }
+                            &::after{
+                                @include bottom-right-dec-dot;
+                                bottom: -70px;
+                                right: -70px;
+                                border-bottom: 1px dotted $golden ;
+                                border-right: 1px dotted $golden ;
+                                width: 60px;
+                                height: 60px;
+                                opacity: 1;
+                              
+                            }
+                            .col-xl-4{
+                                &:hover .flip{
+                                    transform: rotateY(-180deg);
+                                    
+                                }
+                                .flip{
+                                    width: 100%;
+                                    height: 100%;
+                                    transition:  .9s cubic-bezier(0.54, -0.81, 0.49, 1.85); //cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                                    transform-style: preserve-3d;
+                                    perspective:  1000px;
+                                    position: relative;
+                                    .service-front{
+                                        position: relative;
+                                        width: 100%;
+                                        height: 100%;
+                                        z-index: 100;
+                                        
+                                        .service-front-inner{
+                                            
+                                            .service-details-inner{
+                                                position: relative;
+                                                .service-details-caption{
+                                                    
+                                                    position: absolute;
+                                                    top: 0;
+                                                    bottom: 0;
+                                                    left: 0;
+                                                    right: 0;
+                                                    background-color: rgba(0, 0, 0, 0.4);
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    flex-direction: column;
+                                                    h5{
+                                                        color:  $white;
+                                                        font-size: 20px;
+                                                        font-weight: 600;
+                                                        position: relative;
+                                                        transform: translateZ(90px);
+                                                        &::before{
+                                                            transform: translateZ(0px);
+                                                            position: absolute;
+                                                            top: -30px;
+                                                            left: 50%;
+                                                            transform: translate(-50%,0);
+                                                            display: block;
+                                                            content: '';
+                                                            width: 50px;
+                                                            height: 2px;
+                                                            background-color:  $golden2;
+                                                        }
+                                                        
+                                                    }
+                                                    h6{
+                                                        margin-top: 20px;
+                                                        font-size: 13px;
+                                                        @include font-second;
+                                                        letter-spacing: 2px;
+                                                        text-transform:  uppercase;
+                                                        color:  $white;
+                                                        opacity: 0.8;
+                                                        transform: translateZ(90px) scale(0.8);
+                                                    }
+                                                
+                                                }
+                                                .top-left-dec-dot{
+                                                    @include top-left-dec-dot;
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    top: 20px;
+                                                    left: 20px;
+                                                    border-top: 1px dotted $borderEEE;
+                                                    border-left: 1px dotted $borderEEE;
+                                                    opacity: 0.5;
+                                                }
+                                                .bottom-right-dec-dot{
+                                                    @include bottom-right-dec-dot;
+                                                }
+                                                .service-num{
+                                                    position: absolute;
+                                                    bottom: 20px;
+                                                    left: 25px;
+                                                    color: $white;
+                                                    font-size: 20px;
+                                                }
+                                            }
+                                        }
+                                        
+                                    }
+                                    .service-back{
+                                        transform: rotateY(180deg);
+                                        perspective: 1000px;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        z-index: 10;
+                                        background-color: $btnBlack;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        .service-back-caption{
+                                            transform-style: preserve-3d;
+                                            perspective: 1000px;
+                                            backface-visibility: hidden;
+                                            position: relative;
+                                            padding: 40px 40px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items:  center;
+                                            flex-direction: column;
+                                            img{
+                                                width: 70px;
+                                                position: relative;
+     
+                                            }
+                                            &::after{
+                                                position: absolute;
+                                                display: block;
+                                                content: '';
+                                                width: 60px;
+                                                height: 10px;
+                                                border-radius: 16px;
+                                                background-color: $borderEEE;
+                                                opacity: 0.1;
+                                                top: 40px;
+                                                left: 32%;
+                                                z-index: 100;
+                                            }
+                                            &::before{
+                                                position: absolute;
+                                                display: block;
+                                                content: '';
+                                                width: 60px;
+                                                height: 10px;
+                                                border-radius: 16px;
+                                                background-color: $borderEEE;
+                                                opacity: 0.1;
+                                                top: 110px;
+                                                left: 50%;
+                                                z-index: 100;
+                                            }
+                                            p{
+                                                transform: translateZ(95px) scale(0.81) ;
+                                                text-align: center;
+                                                @include font-second;
+                                                font-size: 13px;
+                                                color: $white;
+                                                line-height: 22px;
+                                                margin-top: 35px;
+                                                position: relative;
+                                                &::after{
+                                                    display: block;
+                                                    position: absolute;
+                                                    content: '...';
+                                                    letter-spacing: 3px;
+                                                    font-size: 20px;
+                                                    font-weight: 600;
+                                                    bottom: -75px;
+                                                    left: 50%;
+                                                    transform: translateX(-50%);
+                                                    color:  $golden;
+                                                }
+                                            }
+                                        }
+                                    }
+                           
+                                }
+                                
+                                
+                                
+                            }
+                        }
+                        .generic-btn{
+                            @include generic-btn;
+                            margin: 50px auto 0 auto;
+                            color: $blackText;
+                            font-weight: 800;
+                            font-size: 12px;
+                            background-color: $sharebg;
+                            border: 1px solid $golden;
+                            i{
+                                &::before{
+                                    color: $blackText;
+                                }
+                                
+                            }
+                            &:hover{
+                                color: $white;
+                                i{
+                                    &::before{
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+            .float-cube{
+                @include float-cube;
+                left: unset;
+                right: 26%;
+                top: unset;
+                bottom: 220px;
+                height: 120px;
+                img{
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            .brush-bottom{
+                @include brush-bottom;
+                z-index: 10;
+                background-position: 0px;
+            }
+        }
+
+        //SERVICE SECTION END SERVICE SECTION END 
+
+
+        // SPECIAL MENU SPECIAL --  SPECIAL MENU
+        .special-menu{
+            /*background-image:  url('../../../assets/img/menu/3.jpg');*/
+            background-color: black;
+            background-size: cover;
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: repeat;
+            background-origin: content-box;
+            .section-padding{
+                padding: 120px 0px;
+                background-color: rgba($color: #000000, $alpha: 0.7);
+                .special-menu-inner{
+                    @include container;
+                    .lead-text{
+                        @include lead-text;
+                        h1{
+                            color: white;
+                            &::after{
+                                color: $golden;
+                            }
+                        }
+                    }
+                    .special-menu-tab{
+                        margin-top: 80px;
+                        .row{
+                            .col-xl-3{
+                                .nav{
+                                    flex-direction: column;
+                                }
+                                border-right: 1px $heroGray dotted;
+                                padding: 20px 15px;
+                                .active{
+                                    background-color: unset;
+                                    color: $golden !important;
+                                    position: relative;
+                                    &::after{
+                                        display: block;
+                                        content: '';
+                                        position: absolute;
+                                        right: 10px;
+                                        top: 50%;
+                                        transform: translate(0,-50%);
+                                        width: 0; 
+                                        height: 0; 
+                                        border-top: 5px solid transparent;
+                                        border-bottom: 5px solid transparent; 
+                                        
+                                        border-right:5px solid $golden; 
+
+                                    }
+                                }
+                                .nav-link{
+                                    color:  $white;
+                                    font-size: 18px;
+                                    margin: 6px 0;
+                                    transition: all 300ms ease-in-out;
+                                    &:hover{
+                                        color:  $golden;
+                                    }
+                                    span{
+                                        font-size: 11px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                            .col-xl-9{
+                                min-height: 340px;
+                                .tab-content-inner{
+                                    margin-top: 34px;
+                                    padding-left: 34px;
+                                    .dish{
+                                        display: flex;
+                                        margin-bottom: 25px;
+                                        .dish-num{
+                                            color:  $golden;
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                            margin-right: 20px
+                                        }
+                                        .dish-content{
+                                            width: 80%;
+                                            padding-left: 20px;
+                                            h5{
+                                                @include font-second;
+                                                color:  $white;
+                                                font-weight: 500;
+                                                font-size: 17px;
+                                                position: relative;
+                                                &::after{
+                                                    display: block;
+                                                    content: '';
+                                                    position:  absolute;
+                                                    width: 75%;
+                                                    height: 0;
+                                                    border-top: 1px $blackSmallText dotted;
+                                                    bottom: 20%;
+                                                    right: 0;
+                                                    transform: translateY(-50%)
+                                                }
+                                            }
+                                            h6{
+                                                @include font-second;
+                                                color: rgba(255,255,255,0.8);
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                        .dish-price{
+                                            color: $golden;
+                                            margin:  0 auto;
+                                            font-size: 18px;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                    .primary-btn{
+                        margin-top: 60px;
+                        @include primary-btn;
+                    }
+                }
+            }
+        }
+        // SPECIAL MENU   SPECIAL MENU
+
+
+        //TEAM SECTION TEAM SECTION
+        
+        .team-parent{
+            position: relative;
+            .custom-container{
+                @include container ;
+                .team-inner{
+                    @include small-section-padding;
+                    .lead-text{
+                        @include lead-text;
+                        margin-bottom: 60px;
+                    }
+                    .team-cards{
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        gap: 30px;
+                        position: relative;
+                        .team-card{
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            .team-img{
+                                position: relative;
+                                .team-img-overlay{
+                                    opacity: 0;
+                                    position: absolute;
+                                    top: 0;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    background-color: rgba(0, 0, 0, 0.5);
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    transition: all 300ms ease;
+                                    h6{
+                                        color: $white;
+                                        font-weight: 600;
+                                        font-size: 18px;
+                                        margin-bottom: 20px;
+                                    }
+                                    .social-icons{
+                                        display: flex;
+                                        a{
+                                            width: 38px;
+                                            height: 38px;
+                                            border-radius: 50%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: rgba(0, 0, 0, 0.7);
+                                            margin: 0 2px;
+                                            transition: all 200ms ease;
+                                            &:hover{
+                                                background-color: $golden;
+                                            }
+                                            i{
+                                                font-size: 14px;
+                                            }
+                                        }
+
+                                    }
+                                }
+                                &:hover .team-img-overlay{
+                                    opacity: 1;
+                                }
+                                &::before{
+                                    @include top-left-dec-dot;
+                                    top: 24px;
+                                    left: 24px;
+                                    width: 40px;
+                                    height: 40px;
+                                    z-index: 3;
+                                    border-left: 1px dotted $golden2;
+                                    border-top: 1px dotted $golden2;
+                                }
+                                &::after{
+                                    @include bottom-right-dec-dot;
+                                    width: 40px;
+                                    height: 40px;
+                                    z-index: 3;
+                                    bottom: 24px;
+                                    right: 24px;
+                                    border-bottom: 1px dotted $golden2;
+                                    border-right: 1px dotted $golden2;
+                                }
+
+                            }
+                            .team-content{
+                                border: 1px solid $borderEEE;
+                                border-top: none;
+                                padding:25px 15px 40px 15px;
+                                h5{
+                                    color: $black;
+                                    font-size: 18px;
+                                    font-weight: 800;
+                                    margin-bottom: 10px;
+                                }
+                                h6{
+                                    color: $golden2;
+                                    font-family: $poppins;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    margin-bottom: 20px;
+                                }
+                                p{
+                                    font-family: $poppins;
+                                    font-size: 13px;
+                                    line-height: 24px;
+                                    color: #5e646a;
+                                    margin-bottom: 0;
+                                    position: relative;
+                                    &::after{
+                                        content: '...';
+                                        display: block;
+                                        position: absolute;
+                                        left: 50%;
+                                        bottom: -30px;
+                                        transform: translateX(-50%);
+                                        font-size: 20px;
+                                        letter-spacing: 3px;   
+                                        color: $golden;
+
+                                    }
+                                }
+                            }
+                        }
+
+                        &::before{
+                            @include top-left-dec-dot
+                        }
+                    }
+                    .recipe-book-parent{
+                        width: 100%;
+                        margin-top: 60px;
+                        display: flex;
+                        align-items: center;
+                        .recipe-book-inner{
+                            width: 66%;
+                            background-color: $btnGray;
+                            border: 1px solid $borderEEE;
+                            padding: 25px 30px;
+                            display: flex;
+                            align-items: center;
+                            h1{
+                                font-size: 20px;
+                                font-family: 'Playfair Display', cursive;
+                                font-style: italic;
+                                color: $blackText;
+                                margin-bottom: 0;
+                            }
+                            button{
+                                margin-left: auto;
+                                @include primary-black-btn;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .brush-top{
+                @include brush-top;
+                background-image: url('../../../assets/img/dec/brush-dec.png')
+            }
+            .brush-bottom{
+                @include brush-bottom;
+                background-image: url('../../../assets/img/dec/brush-dec_2.png');
+            }
+        }
+
+
+        //TEAM SECTION TEAM SECTION
+
+    }
+}
+
+.menuOverlayAnimation{
+    animation: menuOverlay 800ms ease forwards;
+}
+@keyframes menuOverlay {
+    30%{
+        background-color: rgba($color: #000000, $alpha: 1);
+    }
+
+    100%{
+        background-color: rgba($color: #000000, $alpha: 0.7)
+    }
+}
